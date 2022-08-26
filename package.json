@@ -1,6 +1,6 @@
 {
   "name": "onpage-widgets",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
@@ -15,6 +15,7 @@
     "dist/index.min.js"
   ],
   "scripts": {
+    "prepack": "yarn build",
     "build": "tsc && sed -i 's/export default/window.OnPage=/g' dist/index.js && minify dist/index.js > dist/index.min.js"
   }
 }
