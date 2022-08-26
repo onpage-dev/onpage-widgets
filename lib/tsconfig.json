@@ -6,5 +6,5 @@
     "sourceMap": false /* Generates corresponding '.map' file. */,
     "outDir": "./dist/"
   },
-  "include": ["lib.ts"]
+  "include": ["index.ts"]
 }

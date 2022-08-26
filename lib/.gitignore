@@ -27,3 +27,5 @@ dist-ssr
 /components
 /dist/*
 /*.vue
+
+*.tgz
