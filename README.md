@@ -1,6 +1,6 @@
 # On Page ® Widgets
 
-This project contains a `lib/` folder with the On Page widgets and a `demo/` folder with a simple Vue3 project to try out the lib.
+This project contains a set of Javascript functions that will allow your website users to interact with the data stored in On Page.
 
 # Install
 
@@ -14,7 +14,7 @@ Import the minified library into your website using CDN:
 
 This section will describe all the available functions.
 
-## Edit form
+## Allow users to edit elements
 
 This function allows you to open a modal window within your website that allows the user to edit a Thing.
 The user will be asked to login, and of course it must already have write access to this project.
@@ -35,10 +35,9 @@ yarn dev
 
 ## Build the library for the browser
 
-Build files into `lib/dist/` folder:
+Build files into `dist/` folder:
 
 ```bash
-cd lib
 yarn
 yarn build
 ```
